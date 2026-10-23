@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+}
+
+input, select, textarea {
+  @apply w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm outline-none ring-brand-500 transition focus:ring-2;
+}
+
+label {
+  @apply mb-1 block text-sm font-medium text-slate-700;
+}

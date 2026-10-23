@@ -1,0 +1,60 @@
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+server/.env
+client/.env
+*.pem
+*.p12
+*.jks
+*.key
+
+# Java / Maven
+server/target/
+server/.mvn/wrapper/maven-wrapper.jar.download
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
+
+# Node
+client/node_modules/
+client/dist/
+client/coverage/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE
+.idea/
+.settings/
+*.iml
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# OS
+desktop.ini
+
+# Test / coverage
+**/surefire-reports/
+**/failsafe-reports/
+
+# Local MySQL dumps
+*.sql.gz
+dumps/
+
+# Local tooling downloads
+.tools/
+
+# Local workspace metadata
+.manus/
+.metadata/
+.project
